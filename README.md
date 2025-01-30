@@ -4,8 +4,10 @@ A product filtering application built with **Pure JavaScript**. Filter products 
 
 ## 🚀 **Features**
 
-- **Filter by category, color, and price**.
-- **Swiper navigation** to swipe through the filtered products.
+- **Category Selection:** Filter products by category.
+- **Color Selection:** Filter products by color.
+- **Price Range Selection:** Filter products based on price.
+- **Swiper navigation:** to swipe through the filtered products.
 
 ## 📦 **Getting Started**
 
@@ -15,16 +17,16 @@ A product filtering application built with **Pure JavaScript**. Filter products 
     ```
 
 2. Open the `index.html` file in your browser.
-3. If you're using **Visual Studio Code**, you can install the **Live Server** extension to preview your app.
+3. If you're using **Visual Studio Code**, you can install the **Live Server** extension to preview the app.
 
 ## 🛠 **Technologies**
 
 - **HTML**
 - **CSS**
-- **Pure JavaScript**
+- **JavaScript(ES6+)**
 
 
-## 📸 **Screenshot**
+## 📸 **Screenshots**
 
 
 <img width="809" alt="Image" src="https://github.com/user-attachments/assets/2ea89488-86c6-4d5b-9126-610c934acb4d" />
