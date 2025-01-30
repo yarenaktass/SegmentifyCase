@@ -1,6 +1,6 @@
 # **Product Finder - Built for Segmentify Case**
 
-A simple product filtering application built with **Pure JavaScript**. Filter products by categories, colors, and prices, and swipe through the filtered products. This application was built for the **Segmentify Case**.
+A product filtering application built with **Pure JavaScript**. Filter products by categories, colors, and prices, and swipe through the filtered products. This application was built for the **Segmentify Case**.
 
 ## 🚀 **Features**
 
