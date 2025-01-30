@@ -11,7 +11,7 @@ A simple product filtering application built with **Pure JavaScript**. Filter pr
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/username/ProductFinder.git
+    git clone https://github.com/yarenaktass/SegmentifyCase.git
     ```
 
 2. Open the `index.html` file in your browser.
