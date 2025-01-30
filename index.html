@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Finder</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="questionContainer" class="question-container">
+        <div class="question-content">
+          <h2 id="questionTitle" class="question-title"></h2>
+          <div id="answersContainer" class="answers-container"></div>
+        </div>
+
+        <div class="navigation">
+          <div class="nav-btn-container">
+            <button id="backBtn" class="nav-btn">&lt;</button>
+            <span class="nav-btn-label">Geri</span>
+          </div>
+          <div class="step-dots" id="stepIndicator"></div>
+          <div class="nav-btn-container">
+            <button id="nextBtn" class="nav-btn">&gt;</button>
+            <span class="nav-btn-label">İleri</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="productsContainer" class="products-container hidden">
+        <div id="loadingMessage" class="message-container">
+          <div class="loading-spinner"></div>
+          <div>Yükleniyor...</div>
+        </div>
+        <div id="noProductsMessage" class="message-container">
+          <p>Seçtiğiniz filtrelere göre ürün bulunamadı</p>
+        </div>
+        <div class="swiper productSwiper">
+          <div class="swiper-wrapper" id="productList"></div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="src/script.js"></script>
+  </body>
+</html>
